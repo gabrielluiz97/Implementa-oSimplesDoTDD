@@ -1,0 +1,15 @@
+C:\Users\gabri\source\repos\TestesDeSoftwareCSharp\NerdStore.Vendas.Domain\bin\Debug\net6.0\NerdStore.Vendas.Domain.deps.json
+C:\Users\gabri\source\repos\TestesDeSoftwareCSharp\NerdStore.Vendas.Domain\bin\Debug\net6.0\NerdStore.Vendas.Domain.dll
+C:\Users\gabri\source\repos\TestesDeSoftwareCSharp\NerdStore.Vendas.Domain\bin\Debug\net6.0\ref\NerdStore.Vendas.Domain.dll
+C:\Users\gabri\source\repos\TestesDeSoftwareCSharp\NerdStore.Vendas.Domain\bin\Debug\net6.0\NerdStore.Vendas.Domain.pdb
+C:\Users\gabri\source\repos\TestesDeSoftwareCSharp\NerdStore.Vendas.Domain\obj\Debug\net6.0\NerdStore.Vendas.Domain.csproj.AssemblyReference.cache
+C:\Users\gabri\source\repos\TestesDeSoftwareCSharp\NerdStore.Vendas.Domain\obj\Debug\net6.0\NerdStore.Vendas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\source\repos\TestesDeSoftwareCSharp\NerdStore.Vendas.Domain\obj\Debug\net6.0\NerdStore.Vendas.Domain.AssemblyInfoInputs.cache
+C:\Users\gabri\source\repos\TestesDeSoftwareCSharp\NerdStore.Vendas.Domain\obj\Debug\net6.0\NerdStore.Vendas.Domain.AssemblyInfo.cs
+C:\Users\gabri\source\repos\TestesDeSoftwareCSharp\NerdStore.Vendas.Domain\obj\Debug\net6.0\NerdStore.Vendas.Domain.csproj.CoreCompileInputs.cache
+C:\Users\gabri\source\repos\TestesDeSoftwareCSharp\NerdStore.Vendas.Domain\obj\Debug\net6.0\NerdStore.Vendas.Domain.dll
+C:\Users\gabri\source\repos\TestesDeSoftwareCSharp\NerdStore.Vendas.Domain\obj\Debug\net6.0\ref\NerdStore.Vendas.Domain.dll
+C:\Users\gabri\source\repos\TestesDeSoftwareCSharp\NerdStore.Vendas.Domain\obj\Debug\net6.0\NerdStore.Vendas.Domain.pdb
+C:\Users\gabri\source\repos\TestesDeSoftwareCSharp\NerdStore.Vendas.Domain\bin\Debug\net6.0\NerdStore.Core.dll
+C:\Users\gabri\source\repos\TestesDeSoftwareCSharp\NerdStore.Vendas.Domain\bin\Debug\net6.0\NerdStore.Core.pdb
+C:\Users\gabri\source\repos\TestesDeSoftwareCSharp\NerdStore.Vendas.Domain\obj\Debug\net6.0\NerdStore.Vendas.Domain.csproj.CopyComplete
