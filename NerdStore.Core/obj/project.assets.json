@@ -1,11 +1,45 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "FluentValidation/10.3.6": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "FluentValidation/10.3.6": {
+      "sha512": "iMd370ZDx6ydm8t7bIFdRbSKX0e42lpvCtifUSbTSXOk5iKjmgl7HU0PXBhIWQAyIRi3gCwfMI9luj8H6K+byw==",
+      "type": "package",
+      "path": "fluentvalidation/10.3.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.10.3.6.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "FluentValidation >= 10.3.6"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\gabri\\.nuget\\packages\\": {},
@@ -14,11 +48,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\TestesDeSoftwareCSharp\\NerdStore.Core\\NerdStore.Core.csproj",
+      "projectUniqueName": "C:\\Users\\gabri\\Documents\\Projetos\\Implementação-TestesUnitários\\ImplementaçãoSimplesDoTDD\\NerdStore.Core\\NerdStore.Core.csproj",
       "projectName": "NerdStore.Core",
-      "projectPath": "C:\\Users\\gabri\\source\\repos\\TestesDeSoftwareCSharp\\NerdStore.Core\\NerdStore.Core.csproj",
+      "projectPath": "C:\\Users\\gabri\\Documents\\Projetos\\Implementação-TestesUnitários\\ImplementaçãoSimplesDoTDD\\NerdStore.Core\\NerdStore.Core.csproj",
       "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gabri\\source\\repos\\TestesDeSoftwareCSharp\\NerdStore.Core\\obj\\",
+      "outputPath": "C:\\Users\\gabri\\Documents\\Projetos\\Implementação-TestesUnitários\\ImplementaçãoSimplesDoTDD\\NerdStore.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -49,6 +83,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[10.3.6, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

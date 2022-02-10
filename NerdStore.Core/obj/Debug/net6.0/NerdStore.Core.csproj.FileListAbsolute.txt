@@ -9,3 +9,15 @@ C:\Users\gabri\source\repos\TestesDeSoftwareCSharp\NerdStore.Core\obj\Debug\net6
 C:\Users\gabri\source\repos\TestesDeSoftwareCSharp\NerdStore.Core\obj\Debug\net6.0\NerdStore.Core.dll
 C:\Users\gabri\source\repos\TestesDeSoftwareCSharp\NerdStore.Core\obj\Debug\net6.0\ref\NerdStore.Core.dll
 C:\Users\gabri\source\repos\TestesDeSoftwareCSharp\NerdStore.Core\obj\Debug\net6.0\NerdStore.Core.pdb
+C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Core\bin\Debug\net6.0\NerdStore.Core.deps.json
+C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Core\bin\Debug\net6.0\NerdStore.Core.dll
+C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Core\bin\Debug\net6.0\ref\NerdStore.Core.dll
+C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Core\bin\Debug\net6.0\NerdStore.Core.pdb
+C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Core\obj\Debug\net6.0\NerdStore.Core.csproj.AssemblyReference.cache
+C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Core\obj\Debug\net6.0\NerdStore.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Core\obj\Debug\net6.0\NerdStore.Core.AssemblyInfoInputs.cache
+C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Core\obj\Debug\net6.0\NerdStore.Core.AssemblyInfo.cs
+C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Core\obj\Debug\net6.0\NerdStore.Core.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Core\obj\Debug\net6.0\NerdStore.Core.dll
+C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Core\obj\Debug\net6.0\ref\NerdStore.Core.dll
+C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Core\obj\Debug\net6.0\NerdStore.Core.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gabri\\source\\repos\\TestesDeSoftwareCSharp\\NerdStore.Vendas.Application.Tests\\NerdStore.Vendas.Application.Tests.csproj": {}
+    "C:\\Users\\gabri\\Documents\\Projetos\\Implementação-TestesUnitários\\ImplementaçãoSimplesDoTDD\\NerdStore.Vendas.Application.Tests\\NerdStore.Vendas.Application.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gabri\\source\\repos\\TestesDeSoftwareCSharp\\NerdStore.Vendas.Application.Tests\\NerdStore.Vendas.Application.Tests.csproj": {
+    "C:\\Users\\gabri\\Documents\\Projetos\\Implementação-TestesUnitários\\ImplementaçãoSimplesDoTDD\\NerdStore.Vendas.Application.Tests\\NerdStore.Vendas.Application.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\TestesDeSoftwareCSharp\\NerdStore.Vendas.Application.Tests\\NerdStore.Vendas.Application.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\Documents\\Projetos\\Implementação-TestesUnitários\\ImplementaçãoSimplesDoTDD\\NerdStore.Vendas.Application.Tests\\NerdStore.Vendas.Application.Tests.csproj",
         "projectName": "NerdStore.Vendas.Application.Tests",
-        "projectPath": "C:\\Users\\gabri\\source\\repos\\TestesDeSoftwareCSharp\\NerdStore.Vendas.Application.Tests\\NerdStore.Vendas.Application.Tests.csproj",
+        "projectPath": "C:\\Users\\gabri\\Documents\\Projetos\\Implementação-TestesUnitários\\ImplementaçãoSimplesDoTDD\\NerdStore.Vendas.Application.Tests\\NerdStore.Vendas.Application.Tests.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\source\\repos\\TestesDeSoftwareCSharp\\NerdStore.Vendas.Application.Tests\\obj\\",
+        "outputPath": "C:\\Users\\gabri\\Documents\\Projetos\\Implementação-TestesUnitários\\ImplementaçãoSimplesDoTDD\\NerdStore.Vendas.Application.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,6 +43,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.6, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.11.0, )"

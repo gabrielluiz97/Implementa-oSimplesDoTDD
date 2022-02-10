@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "EH8l9qpBv9feSoqih1MXVjOWRRcxFguFwLnleFVYdPZFg8bN40HZBONN6b/wDd6/Q+dUL9wUGMysz/TweJpDcQ==",
+  "dgSpecHash": "THvODeLJ4ajM2wYnNbNlPd69RPVMsNZ+KpMaIZ+e+6etZ94USUIVN7cqjD2hkvicxBdXoFjX+RPuY0euCCvz2Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gabri\\source\\repos\\TestesDeSoftwareCSharp\\NerdStore.Core\\NerdStore.Core.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\gabri\\Documents\\Projetos\\Implementação-TestesUnitários\\ImplementaçãoSimplesDoTDD\\NerdStore.Core\\NerdStore.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gabri\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512"
+  ],
   "logs": []
 }
