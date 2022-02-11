@@ -1,4 +1,5 @@
-﻿using NerdStore.Core.Objects;
+﻿using FluentValidation.Results;
+using NerdStore.Core.Objects;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -20,6 +21,9 @@ namespace NerdStore.Vendas.Domain
 
         public Guid ClientId { get; private set; }
         public decimal ValorTotal { get; private set; }
+        public decimal Desconto { get; private set; }
+        public Voucher Voucher { get; private set; }
+        public bool VoucherUtilizado { get; private set; }
         public PedidoStatus PedidoStatus { get; private set; }
         private readonly List<PedidoItem> _pedidoItems;
         public IReadOnlyCollection<PedidoItem> pedidoItems => _pedidoItems;
@@ -32,6 +36,28 @@ namespace NerdStore.Vendas.Domain
         private void CalcularValorTotal()
         {
             ValorTotal = _pedidoItems.Sum(a => a.Quantidade * a.ValorUnitario);
+
+            AplicarDescontosNoValorTotal();
+        }
+
+        private void AplicarDescontosNoValorTotal()
+        {
+            if (Voucher == null) return;
+
+            if (Voucher.ValorDesconto.HasValue 
+                && Voucher.TipoDeDesconto == TipoDeDescontoVoucher.valor)
+            {
+                Desconto = Voucher.ValorDesconto.Value;
+            }
+            else if (Voucher.PercentualDeDesconto.HasValue 
+                     && Voucher.TipoDeDesconto == TipoDeDescontoVoucher.porcentagem)
+            {
+                Desconto = (ValorTotal * Voucher.PercentualDeDesconto.Value) / 100;
+            }
+
+            VoucherUtilizado = true;
+
+            ValorTotal = (ValorTotal > Desconto) ? ValorTotal - Desconto : 0;
         }
 
 
@@ -83,7 +109,22 @@ namespace NerdStore.Vendas.Domain
                 throw new DomainException($"produto não faz parte do pedido.");
         }
         #endregion
-        
+
+        #region [ Voucher ]
+        public ValidationResult AplicarVoucher(Voucher voucher)
+        {
+            var result = voucher.ValidarAplicabilidade();
+
+            if (!result.IsValid) return result;
+
+            Voucher = voucher;
+
+            CalcularValorTotal();
+
+            return result;
+        }
+        #endregion
+
         public static class PedidoFactory
         {
             public static Pedido NovoPedidoRascunho(Guid clientId)
@@ -98,6 +139,7 @@ namespace NerdStore.Vendas.Domain
                 return pedido;
             }
         }
+
     }
 
     public enum PedidoStatus
@@ -123,6 +165,7 @@ namespace NerdStore.Vendas.Domain
         public string ProdutoNome { get; private set; }
         public int Quantidade { get; private set; }
         public decimal ValorUnitario { get; private set; }
+        public decimal ValorTotal => ValorUnitario * Quantidade;
 
         public void Atualizar(string produtoNome, int quantidade, decimal volorUnitario)
         {
