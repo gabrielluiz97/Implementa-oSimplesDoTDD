@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c1fbde9e-89f8-4592-a5e2-99eaa51b7d0e": {
+      "ProjectGuid": "c1fbde9e-89f8-4592-a5e2-99eaa51b7d0e",
+      "DisplayName": "NerdStore.Vendas.Domain",
+      "ColorIndex": 0
+    },
+    "c1cc795d-c7bd-4c47-ba31-ab16fb689391": {
+      "ProjectGuid": "c1cc795d-c7bd-4c47-ba31-ab16fb689391",
+      "DisplayName": "NerdStore.Vendas.Domain.Tests",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

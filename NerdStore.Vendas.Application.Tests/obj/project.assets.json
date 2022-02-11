@@ -1679,6 +1679,47 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "NerdStore.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FluentValidation": "10.3.6"
+        },
+        "compile": {
+          "bin/placeholder/NerdStore.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NerdStore.Core.dll": {}
+        }
+      },
+      "NerdStore.Vendas.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FluentValidation": "10.3.6",
+          "NerdStore.Vendas.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NerdStore.Vendas.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NerdStore.Vendas.Application.dll": {}
+        }
+      },
+      "NerdStore.Vendas.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FluentValidation": "10.3.6",
+          "NerdStore.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NerdStore.Vendas.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NerdStore.Vendas.Domain.dll": {}
+        }
       }
     }
   },
@@ -5992,12 +6033,28 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "NerdStore.Core/1.0.0": {
+      "type": "project",
+      "path": "../NerdStore.Core/NerdStore.Core.csproj",
+      "msbuildProject": "../NerdStore.Core/NerdStore.Core.csproj"
+    },
+    "NerdStore.Vendas.Application/1.0.0": {
+      "type": "project",
+      "path": "../NerdStore.Vendas.Application/NerdStore.Vendas.Application.csproj",
+      "msbuildProject": "../NerdStore.Vendas.Application/NerdStore.Vendas.Application.csproj"
+    },
+    "NerdStore.Vendas.Domain/1.0.0": {
+      "type": "project",
+      "path": "../NerdStore.Vendas.Domain/NerdStore.Vendas.Domain.csproj",
+      "msbuildProject": "../NerdStore.Vendas.Domain/NerdStore.Vendas.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "FluentValidation >= 10.3.6",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
+      "NerdStore.Vendas.Application >= 1.0.0",
       "coverlet.collector >= 3.1.0",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
@@ -6033,7 +6090,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\gabri\\Documents\\Projetos\\Implementação-TestesUnitários\\ImplementaçãoSimplesDoTDD\\NerdStore.Vendas.Application\\NerdStore.Vendas.Application.csproj": {
+              "projectPath": "C:\\Users\\gabri\\Documents\\Projetos\\Implementação-TestesUnitários\\ImplementaçãoSimplesDoTDD\\NerdStore.Vendas.Application\\NerdStore.Vendas.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

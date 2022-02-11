@@ -197,3 +197,10 @@ C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\Implementaç�
 C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Vendas.Application.Tests\obj\Debug\net6.0\NerdStore.Vendas.Application.Tests.pdb
 C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Vendas.Application.Tests\obj\Debug\net6.0\NerdStore.Vendas.Application.Tests.genruntimeconfig.cache
 C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Vendas.Application.Tests\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Vendas.Application.Tests\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Vendas.Application.Tests\bin\Debug\net6.0\NerdStore.Vendas.Application.dll
+C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Vendas.Application.Tests\bin\Debug\net6.0\NerdStore.Vendas.Application.pdb
+C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Vendas.Application.Tests\bin\Debug\net6.0\NerdStore.Core.dll
+C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Vendas.Application.Tests\bin\Debug\net6.0\NerdStore.Vendas.Domain.dll
+C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Vendas.Application.Tests\bin\Debug\net6.0\NerdStore.Core.pdb
+C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Vendas.Application.Tests\bin\Debug\net6.0\NerdStore.Vendas.Domain.pdb
