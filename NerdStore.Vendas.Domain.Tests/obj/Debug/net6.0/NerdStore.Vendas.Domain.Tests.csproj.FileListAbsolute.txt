@@ -207,3 +207,5 @@ C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\Implementaç�
 C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Vendas.Domain.Tests\obj\Debug\net6.0\NerdStore.Vendas.Domain.Tests.pdb
 C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Vendas.Domain.Tests\obj\Debug\net6.0\NerdStore.Vendas.Domain.Tests.genruntimeconfig.cache
 C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Vendas.Domain.Tests\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Vendas.Domain.Tests\bin\Debug\net6.0\MediatR.dll
+C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Vendas.Domain.Tests\bin\Debug\net6.0\MediatR.Contracts.dll

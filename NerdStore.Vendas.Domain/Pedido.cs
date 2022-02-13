@@ -1,4 +1,6 @@
 ﻿using FluentValidation.Results;
+using NerdStore.Core.Data;
+using NerdStore.Core.DomainObjects;
 using NerdStore.Core.Objects;
 using System;
 using System.Collections.Generic;
@@ -9,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace NerdStore.Vendas.Domain
 {
-    public class Pedido
+    public class Pedido : Entity, IAggregateRoot
     {
         public static int Quantidade_Max_Produto => 15;
         public static int Quantidade_Min_Produto => 1;
@@ -19,13 +21,15 @@ namespace NerdStore.Vendas.Domain
             _pedidoItems = new List<PedidoItem>();
         }
 
-        public Guid ClientId { get; private set; }
+
+        public Guid ClienteId { get; private set; }
         public decimal ValorTotal { get; private set; }
         public decimal Desconto { get; private set; }
         public Voucher Voucher { get; private set; }
         public bool VoucherUtilizado { get; private set; }
         public PedidoStatus PedidoStatus { get; private set; }
         private readonly List<PedidoItem> _pedidoItems;
+
         public IReadOnlyCollection<PedidoItem> pedidoItems => _pedidoItems;
 
         public void TornarRascunho()
@@ -131,7 +135,7 @@ namespace NerdStore.Vendas.Domain
             {
                 var pedido = new Pedido
                 {
-                    ClientId = clientId,
+                    ClienteId = clientId,
                 };
 
                 pedido.TornarRascunho();

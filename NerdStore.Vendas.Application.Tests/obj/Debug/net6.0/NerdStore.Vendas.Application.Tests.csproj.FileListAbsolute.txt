@@ -204,3 +204,8 @@ C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\Implementaç�
 C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Vendas.Application.Tests\bin\Debug\net6.0\NerdStore.Vendas.Domain.dll
 C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Vendas.Application.Tests\bin\Debug\net6.0\NerdStore.Core.pdb
 C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Vendas.Application.Tests\bin\Debug\net6.0\NerdStore.Vendas.Domain.pdb
+C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Vendas.Application.Tests\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Vendas.Application.Tests\bin\Debug\net6.0\MediatR.dll
+C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Vendas.Application.Tests\bin\Debug\net6.0\MediatR.Contracts.dll
+C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Vendas.Application.Tests\bin\Debug\net6.0\Moq.dll
+C:\Users\gabri\Documents\Projetos\Implementação-TestesUnitários\ImplementaçãoSimplesDoTDD\NerdStore.Vendas.Application.Tests\bin\Debug\net6.0\Moq.AutoMock.dll

@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "THvODeLJ4ajM2wYnNbNlPd69RPVMsNZ+KpMaIZ+e+6etZ94USUIVN7cqjD2hkvicxBdXoFjX+RPuY0euCCvz2Q==",
+  "dgSpecHash": "fTBcH/dcsGthyBEepROLprbWgKsQglc41s+BKts1aAQGpfvsydVa/b7lJc9GLt1pRfpXFzHbvB4a5k52xZIQww==",
   "success": true,
   "projectFilePath": "C:\\Users\\gabri\\Documents\\Projetos\\Implementação-TestesUnitários\\ImplementaçãoSimplesDoTDD\\NerdStore.Core\\NerdStore.Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\gabri\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512"
+    "C:\\Users\\gabri\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
+    "C:\\Users\\gabri\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\gabri\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
   ],
   "logs": []
 }
